@@ -1,0 +1,15 @@
+{
+    "name": "chargepoint/static",
+    "autoload": {
+        "psr-4": {
+            "ChargePoint\\StaticExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leo Beal",
+            "email": "leonardo.beal@chargepoint.com"
+        }
+    ],
+    "require": {}
+}
