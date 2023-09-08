@@ -21,4 +21,13 @@ class FridgeMessages
 
         return implode("\n", $this->messages);
     }
+
+    public function exportV2(): string
+    {
+        if (FeatureLibV2::isJsonExportEnabled()) {
+            return json_encode($this->messages);
+        }
+
+        return implode("\n", $this->messages);
+    }
 }
