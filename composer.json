@@ -5,11 +5,18 @@
             "ChargePoint\\StaticExample\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Leo Beal",
             "email": "leonardo.beal@chargepoint.com"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    }
 }
